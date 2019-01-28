@@ -23,3 +23,5 @@
                 Footer
 ---------------------------------------------
 ```
+
+Create this grid layout according to the documentation at materializecss > CSS > Grid
