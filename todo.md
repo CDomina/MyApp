@@ -5,3 +5,20 @@
   - import materializecss library according to the documentation
   - create a simple website structure according to the materialize documentation
   - fill in some content for the homepage including header, footer, menu, content
+
+### Grid structure
+
+---------------------------------------------
+      |         Header
+      |--------------------------------------
+      |
+  M   |
+  e   |
+  n   |         Content
+  u   |
+      |
+      |
+      |
+---------------------------------------------
+                Footer
+---------------------------------------------
