@@ -4,14 +4,14 @@ Contains a web site using basic techniques of HTML and CSS providing information
 Discover the experience of a travelling european pioneer.
 
 
-# Website structure
+### Website structure
 
   - header
   - menu
   - content
   - footer
 
-# Pages
+### Pages
 
   - acasa
   - capitale
@@ -22,11 +22,11 @@ Discover the experience of a travelling european pioneer.
   - despre
   - contact
 
-# Technologies
+### Technologies
 
   - HTML
   - CSS
 
-# Libraries
+### Libraries
 
   - MaterializeCSS [link]: <https://materializecss.com/>
