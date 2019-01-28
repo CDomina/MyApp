@@ -4,7 +4,6 @@
   - create a simple html structure
   - import materializecss library according to the documentation
   - create a simple website structure according to the materialize documentation
-  - fill in some content for the homepage including header, footer, menu, content
 
 ### Grid structure
 ```
@@ -25,3 +24,8 @@
 ```
 
 Create this grid layout according to the documentation at materializecss > CSS > Grid
+
+
+
+  - fill in some content for the homepage including header, footer, menu, content
+  - start creating capital pages
