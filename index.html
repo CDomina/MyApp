@@ -3,17 +3,18 @@
     <head>
         <title>Turist prin Europa</title>
 
-
 <!--Import Google Icon Font-->
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
 <!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+ <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/> 
 
 <!--Let browser know website is optimized for mobile-->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 
-    </head>
+
+</head>
     
 
     <body>
@@ -21,23 +22,47 @@
             <p><cite>Lumea este o carte, iar cei care nu calatoresc citesc doar o pagina.<cite></p>
         </header>
         
-        
 
-        <nav>
-            <div class="nav-wrapper">      
-                <ul id="nav-mobile" class="left hide-on-med-and-down">
-                <li><a href="">Acasa</a></li>
-                <li><a href="">Capitale europene</a></li>
-                <li><a href="">Despre</a></li>
-                <li><a href="">Contact</a></li>
+             <!-- Dropdown Structure -->
+
+        <ul  id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Berlin/Germania</a></li>
+        <li><a href="#!">Bruxelles/Belgia</a></li>
+        <li><a href="#!">Paris/Franta</a></li>
+        <li><a href="#!">Madrid/Spania</a></li>
+        <li><a href="#!">Stockholm/Suedia</a></li>
+        <li><a href="#!">Bucuresti/Romania</a></li>
+        <li><a href="#!">Amsterdam/Olanda</a></li>
+        <li><a href="#!">Copenhaga/Danemarca</a></li>
+        <li><a href="#!">Oslo/Norvegia</a></li>
+        <li><a href="#!">Viena/Austria</a></li>
+        <li><a href="#!">Praga/Cehia</a></li>
+        <li><a href="#!">Roma/Italia</a></li>
+        <li><a href="#!">Budapesta/Ungaria</a></li>
+        <li><a href="#!">Atena/Grecia</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Londra/Marea Britanie</a></li>   
+      </ul>
+
+          <nav>
+            <div class="nav-wrapper">     
+                <ul id="nav-mobile"  class="left hide-on-med-and-down">
+                    <li><a href="">Acasa</a></li>
+
+                  <!-- Dropdown Trigger -->
+      <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Capitale europene<i class="material-icons right">arrow_drop_down</i></a></li>
+    
+                    <li><a href="">Despre</a></li>
+                    <li><a href="">Contact</a></li>
+                
               </ul>
+            
             </div>
           </nav>
-
-
-
-
-
+          
+        
+      
+         
 
 
         <aside>
@@ -51,7 +76,7 @@
 
                 <div class="container">
 
-            <h1>Urmareste-ti pasii tot timpul spre o alta destinatie</h1>
+            <h1><center>Urmareste-ti pasii tot timpul spre o alta destinatie</center></h1>
             <p>Calatoreste incontinuu, fara intentia de a ajunge undeva. Ca stil de viata. Sa nu te opresti
                 nicaieri fara sa saluti lumea din mers in timp ce iti iei ramas-bun, niciodata la revedere...
                 Sa fii curios si sa te miri neincetat, stiind ca, daca nu te miri te ratacesti! Sa cauti, sa afli 
@@ -72,8 +97,12 @@
 
 
 
+
+
+     
          <!--JavaScript at end of body for optimized loading-->
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+     <script type="text/javascript" src="materialize/js/materialize.min.js"></script>  
+      
     </body>
 </html>
 
